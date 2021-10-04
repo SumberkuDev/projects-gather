@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  * {
+    @apply transition-all duration-200;
+  }
+  body {
+    @apply font-urbanist overflow-x-hidden bg-white dark:bg-gray-900;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  label,
+  button,
+  a {
+    @apply antialiased;
+  }
+  .breakpoint {
+    @apply max-w-3xl mx-auto px-2 sm:px-4 md:px-0;
+  }
+}
+
+.dots-7 {
+  width: 50px;
+  height: 12px;
+  background: radial-gradient(circle closest-side, currentColor 90%, #0000) 0% 50%,
+    radial-gradient(circle closest-side, currentColor 90%, #0000) 50% 50%,
+    radial-gradient(circle closest-side, currentColor 90%, #0000) 100% 50%;
+  background-size: calc(100% / 3) 100%;
+  background-repeat: no-repeat;
+  animation: d7 1s infinite linear;
+}
+@keyframes d7 {
+  33% {
+    background-size: calc(100% / 3) 0%, calc(100% / 3) 100%, calc(100% / 3) 100%;
+  }
+  50% {
+    background-size: calc(100% / 3) 100%, calc(100% / 3) 0%, calc(100% / 3) 100%;
+  }
+  66% {
+    background-size: calc(100% / 3) 100%, calc(100% / 3) 100%, calc(100% / 3) 0%;
+  }
+}

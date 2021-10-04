@@ -1,0 +1,10 @@
+/node_modules
+/.pnp
+
+/dist
+/dist-ssr
+/build
+
+.env
+
+*.local
