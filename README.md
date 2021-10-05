@@ -12,7 +12,11 @@ If you’ve never contributed to open source before, this is the perfect time to
 
 ## projects-gather
 
-Feel free to contribute, and show your project, please remember only showing your public project, don't share your private projects
+Feel free to contribute, and show your project, please remember only showing your public project, don't share your private project, and don't forget to add your route or path to your project folder at list below
+
+current projects:
+- [weungi](/code/js/weungi)
+- [calculator-gui](/code/pyton/calculator-gui)
 
 ## how to contribute
 
