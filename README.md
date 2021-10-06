@@ -28,7 +28,7 @@ Feel free to contribute, and show your project, please remember only showing you
 
 ### Python
 
-- [calculator-gui](/code/pyhton/calculator-gui)
+- [calculator-gui](/code/python/calculator-gui)
 
 ## Contributing
 
