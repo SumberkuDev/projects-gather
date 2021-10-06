@@ -28,9 +28,6 @@ Feel free to contribute, and show your project, please remember only showing you
 
 - [calculator-gui](/code/pyhton/calculator-gui)
 
-## Web
-- [Slider Animtion](/code/web/Slider_Animation)
-
 ## Contributing
 
 [read how to contribute here](/contributing.md)
