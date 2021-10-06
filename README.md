@@ -15,11 +15,19 @@ If you’ve never contributed to open source before, this is the perfect time to
 Feel free to contribute, and show your project, please remember only showing your public project, don't share your private project, and don't forget to add your route or path to your project folder at list below, if there's no language for your project, just add a new one.
 
 ## current projects:
+
+### HTML
+
+- [JalanJalan](/code/html/jalanjalan)
+
 ### JavaScript
+
 - [weungi](/code/js/weungi)
 
 ### Python
+
 - [calculator-gui](/code/pyhton/calculator-gui)
 
 ## Contributing
+
 [read how to contribute here](/contributing.md)
