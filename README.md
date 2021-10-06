@@ -24,6 +24,8 @@ Feel free to contribute, and show your project, please remember only showing you
 
 - [weungi](/code/js/weungi)
 
+- [simple-chat-app](/code/js/simple-chat-app)
+
 ### Python
 
 - [calculator-gui](/code/pyhton/calculator-gui)
