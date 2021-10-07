@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="KoperasiSimpanPinjam.jnlp">
+  <information>
+    <title>KoperasiSimpanPinjam</title>
+    <vendor>YOGIE</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="KoperasiSimpanPinjam.jar" size="20259" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.49.jar" size="1006904" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.7.2.jar" size="3201133" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="KoperasiSimpanPinjam" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="koperasisimpanpinjam.KoperasiSimpanPinjam"  name="KoperasiSimpanPinjam" />
+  <update check="always"/>
+</jnlp>
