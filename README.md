@@ -30,9 +30,10 @@ Feel free to contribute, and show your project, please remember only showing you
 
 - [calculator-gui](/code/python/calculator-gui)
 
-### Java
 
-- [Koperasi Simpan Pinjam](/code/java/koperasisimpanpinjam)
+### java
+
+- [koperasiApp](/code/java/koperasisimpanpinjam)
 
 ## Contributing
 
