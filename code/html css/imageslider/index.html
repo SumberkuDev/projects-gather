@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Image Slider from nordeeen</title>
+  </head>
+  <body>
+    <div class="main-carousel">
+      <div class="cell">
+        <img src="img/photo-1.jpg" alt="image-content" />
+      </div>
+      <div class="cell">
+        <img src="img/photo-2.jpg" alt="image-content" />
+      </div>
+      <div class="cell">
+        <img src="img/photo-3.jpg" alt="image-content" />
+      </div>
+      <div class="cell">
+        <img src="img/photo-4.jpg" alt="image-content" />
+      </div>
+      <div class="cell">
+        <img src="img/photo-5.jpg" alt="image-content" />
+      </div>
+      <div class="cell">
+        <img src="img/photo-6.jpg" alt="image-content" />
+      </div>
+    </div>
+  </body>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script>
+    var elem = document.querySelector('.main-carousel');
+    var flkty = new Flickity(elem, {
+      // options
+      cellAlign: 'left',
+      wrapAround: true,
+      freeScroll: true,
+    });
+  </script>
+</html>
